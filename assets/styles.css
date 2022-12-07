@@ -95,7 +95,6 @@ header {
   width: 450px;
   height: auto;
   background-color: var(--outer-space);
-  border-radius: 10%;
 }
 .header-logo h1 {
   padding: 1rem 2rem 1rem 8rem;
@@ -133,11 +132,11 @@ header nav ul li a {
 
 }
 header nav ul li a:hover {
-	color: var(--greenflesh);
+	color: var(--orangeflesh);
 }
 /* Hero */
 .hero-banner {
-  background-image: url('./assets/images/bg-header.jpg');
+  background-image: url('images/bg-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -229,25 +228,25 @@ main {
 }
 .img-job1 {
   grid-area: 1 / 1 / 3 / 3;
-  background-image: url('./assets/images/landing-home.jpg');
+  background-image: url('images/landing-home.jpg');
   height: 350px;
 }
 .img-job2 {
   grid-area: 3 / 1 / 4 / 2;
-  background-image: url('./assets/images/cineclub-home.jpg');
+  background-image: url('images/cineclub-home.jpg');
 }
 .img-job3 {
   grid-area: 3 / 2 / 4 / 3;
-  background-image: url('./assets/images/landing-home.jpg');
+  background-image: url('images/landing-home.jpg');
  
 }
 .img-job4 {
   grid-area: 4 / 1 / 5 / 2;
-  background-image: url('./assets/images/newsletter-home.jpg');
+  background-image: url('images/newsletter-home.jpg');
 }
 .img-job5 {
   grid-area: 4 / 2 / 5 / 3;
-  background-image: url('./assets/images/lagalatea-home.jpg');
+  background-image: url('images/lagalatea-home.jpg');
 }
 .port-work--subtitle {
   background-color: var(--gin);
@@ -297,6 +296,9 @@ main {
 	font-size: 2.4rem;
 	font-weight: 300;
   border-bottom: 3px solid var(--greenflesh);
+}
+.port-contact ul li a:hover {
+  color: var(--orangeflesh);
 }
 ul.port-contact--mobile {
   display: none;
