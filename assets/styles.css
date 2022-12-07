@@ -85,7 +85,7 @@ header {
 	display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: var(--bright-dark);
+  background-color: var(--outer-space);
   padding-left: 10px;
 }
 .header-logo {
