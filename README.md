@@ -13,15 +13,15 @@
 N/A
 
 ## Usage
-```md
-![alt text](/assets/images/scshot-desktop.jpg)
-```
-```md
-![alt text](/assets/images/scshot-tablet.jpg)
-```
-```md
-![alt text](/assets/images/scshot-mobile.jpg)
-```
+
+![image](/assets/images/scshot-desktop.jpg)
+
+
+![image](/assets/images/scshot-tablet.jpg)
+
+
+![image](/assets/images/scshot-mobile.jpg)
+
 
 ## Credits
 
